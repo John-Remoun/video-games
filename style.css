@@ -1,0 +1,177 @@
+body {
+    background: url('./imegs/www.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(255, 74, 139) ;
+}
+
+
+section {
+    padding: 60px 0;
+    margin: 50px;
+}
+
+section .container {
+    padding: 30px 15px;
+    margin: 75px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ff4a8b;
+    box-shadow: 0 0 20px rgba(255, 74, 139, 0.5);
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+.card-title {
+    color: #a8c9ff;
+}
+
+.btn-buy {
+    background-color: transparent;
+    border: 2px solid #ff4a8b;
+    color: #ff4a8b;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-buy:hover {
+    background-color: #ff4a8b;
+    color: black;
+    border: 2x solid black;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff4a8b;
+}
+
+.btn-pay {
+        text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    background-color: #ff4a8b;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-pay:hover {
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff4a8b;
+}
+
+
+.text {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    animation: colors 4s ease-in-out infinite;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+@keyframes colors {
+    0%, 100% {
+        text-shadow: 0 0 10px #8fe9ff, 0 0 20px #8fe9ff, 0 0 30px #8fe9ff;
+    }
+    50% {
+        text-shadow: 0 0 10px #ffaaff, 0 0 20px #ffaaff, 0 0 30px #ffaaff;
+    }
+}
+
+.contact {
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.contact a {
+    color: #8fe9ff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #ff4a8b;
+}
+
+@media (max-width: 768px) {
+    /* عنوان */
+    .text {
+        font-size: 2.2rem;
+        white-space: normal;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* الباراجراف */
+    .test-s {
+        font-size: 1rem;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    /* شعار النافبار */
+    .navbar-brand {
+        font-size: 1.4rem;
+    }
+
+    /* الصور داخل الكروت */
+    .card img,
+    .card-img-top {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    /* تضيّق المساحة الجانبية */
+    section {
+        padding: 40px 0;
+        margin: 20px;
+    }
+
+    section .container {
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    /* نص الـ contact */
+    .contact {
+        padding: 20px;
+        border-radius: 30px;
+    }
+    
+}   
