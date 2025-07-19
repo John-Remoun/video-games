@@ -2,7 +2,8 @@ body {
     background: url('./imegs/www.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+
 }
 
 .navbar {
@@ -11,7 +12,7 @@ body {
     padding-bottom: 1rem;
     position: sticky;
     top: 0;
-
+    font-family: 'Russo One', sans-serif;
 }
 
 .navbar-nav .nav-link {
@@ -54,7 +55,6 @@ section .container {
     border-radius: 30px;
 }
 
-
 .card-title {
     color: #a8c9ff;
 }
@@ -76,7 +76,7 @@ section .container {
 }
 
 .btn-pay {
-        text-decoration: none;
+    text-decoration: none;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -103,14 +103,16 @@ section .container {
     animation: colors 4s ease-in-out infinite;
     display: inline-block;
     white-space: nowrap;
+    font-family: 'Russo One', sans-serif;
+
 }
 
 @keyframes colors {
     0%, 100% {
-        text-shadow: 0 0 10px #8fe9ff, 0 0 20px #8fe9ff, 0 0 30px #8fe9ff;
+        text-shadow: 0 0 10px #ceda1f, 0 0 20px #d92121, 0 0 30px #2f17e2;
     }
     50% {
-        text-shadow: 0 0 10px #ffaaff, 0 0 20px #ffaaff, 0 0 30px #ffaaff;
+        text-shadow: 0 0 10px #1a75ba, 0 0 20px #2aacd3, 0 0 30px #d917d9;
     }
 }
 
@@ -128,7 +130,6 @@ section .container {
 }
 
 @media (max-width: 768px) {
-    /* عنوان */
     .text {
         font-size: 2.2rem;
         white-space: normal;
@@ -136,19 +137,16 @@ section .container {
         margin: 0 auto;
     }
 
-    /* الباراجراف */
     .test-s {
         font-size: 1rem;
         text-align: center;
         margin: 15px auto;
     }
 
-    /* شعار النافبار */
     .navbar-brand {
         font-size: 1.4rem;
     }
 
-    /* الصور داخل الكروت */
     .card img,
     .card-img-top {
         width: 100%;
@@ -157,7 +155,6 @@ section .container {
         border-radius: 30px;
     }
 
-    /* تضيّق المساحة الجانبية */
     section {
         padding: 40px 0;
         margin: 20px;
@@ -168,7 +165,6 @@ section .container {
         margin: 0 auto;
     }
 
-    /* نص الـ contact */
     .contact {
         padding: 20px;
         border-radius: 30px;
